@@ -1,0 +1,4 @@
+health=20
+nogravity=1
+framestyle=1
+name="MARO"

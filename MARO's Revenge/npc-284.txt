@@ -1,0 +1,14 @@
+gfxoffsety=8
+gfxwidth=74
+gfxheight=94
+foreground=1
+width=58
+height=64
+jumphurt=0
+nohurt=1
+noblockcollision=0
+noyoshi=1
+nofireball=1
+noiceball=1
+nohammer=1
+noshell=1

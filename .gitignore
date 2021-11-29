@@ -1,0 +1,10 @@
+# VS folder
+.vs/
+
+# SMBX save data
+*.sav
+*.dat
+
+# Not needed files (ogg is better for SMBX)
+*.mp3
+*.mp4
