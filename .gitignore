@@ -8,3 +8,4 @@
 # Not needed files (ogg is better for SMBX)
 *.mp3
 *.mp4
+progress.json
