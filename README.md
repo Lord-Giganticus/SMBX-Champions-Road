@@ -10,7 +10,7 @@ I put star coins in to replicate the green stars found in the original level
 
 Pixel perfect water movement (It's not as bad as it sounds just play smart)
 
-A secret level/boss
+2 secret levels and a secret boss
 
 A old joke
 
