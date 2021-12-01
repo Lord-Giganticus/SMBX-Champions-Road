@@ -2,7 +2,7 @@ HEAD
 TL:"Champion's Road";SZ:1;XTRA:"{\n    \"timer\"\: {\n        \"enable\"\: true\n    }\n}\n";CPID:"SMBX2";
 HEAD_END
 SECTION
-SC:0;L:-200000;R:-196704;T:-201088;B:-200000;MZ:24;MF:"Champion's Road/Champion's Road Super Mario 3D World Music Extended.ogg";BG:58;XTRA:"{\n    \"darkness\"\: {\n        \"shadows\"\: 0\n    }\,\n    \"effects\"\: {\n        \"weather\"\: 6\n    }\n}\n";
+SC:0;L:-200000;R:-196704;T:-201088;B:-200000;MZ:24;MF:"Champion's Road/Champion's Road Super Mario 3D World Music Extended.ogg";BG:58;XTRA:"{\n    \"darkness\"\: {\n        \"enableDarkness\"\: false\,\n        \"shadows\"\: 0\n    }\,\n    \"effects\"\: {\n        \"weather\"\: 6\n    }\n}\n";
 SC:1;L:-180000;R:-177696;T:-181088;B:-180000;MZ:24;MF:"Champion's Road/Champion's Road Super Mario 3D World Music Extended.ogg";BG:58;XTRA:"{\n    \"darkness\"\: {\n        \"shadows\"\: 0\n    }\,\n    \"effects\"\: {\n        \"weather\"\: 6\n    }\n}\n";
 SC:2;L:-160000;R:-159200;T:-160600;B:-160000;MZ:24;MF:"Champion's Road/Champion's Road Super Mario 3D World Music Extended.ogg";BG:58;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 6\n    }\n}\n";
 SC:3;L:-140000;R:-137184;T:-140600;B:-140000;MZ:24;MF:"Champion's Road/Champion's Road Super Mario 3D World Music Extended.ogg";BG:58;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 6\n    }\n}\n";
@@ -2101,6 +2101,32 @@ ID:1006;X:-36992;Y:-40192;W:32;H:32;
 ID:1006;X:-36992;Y:-40512;W:32;H:32;
 ID:1006;X:-36992;Y:-40576;W:32;H:32;
 ID:1006;X:-36992;Y:-40608;W:32;H:32;
+ID:89;X:-196928;Y:-200032;W:32;H:32;
+ID:52;X:-19232;Y:-20032;W:32;H:32;
+ID:52;X:-19264;Y:-20032;W:32;H:32;
+ID:52;X:-19296;Y:-20032;W:32;H:32;
+ID:52;X:-19328;Y:-20032;W:32;H:32;
+ID:52;X:-19360;Y:-20032;W:32;H:32;
+ID:52;X:-19392;Y:-20032;W:32;H:32;
+ID:52;X:-19424;Y:-20032;W:32;H:32;
+ID:52;X:-19456;Y:-20032;W:32;H:32;
+ID:52;X:-19488;Y:-20032;W:32;H:32;
+ID:52;X:-19520;Y:-20032;W:32;H:32;
+ID:52;X:-19552;Y:-20032;W:32;H:32;
+ID:52;X:-19584;Y:-20032;W:32;H:32;
+ID:52;X:-19616;Y:-20032;W:32;H:32;
+ID:52;X:-19648;Y:-20032;W:32;H:32;
+ID:52;X:-19680;Y:-20032;W:32;H:32;
+ID:52;X:-19712;Y:-20032;W:32;H:32;
+ID:52;X:-19744;Y:-20032;W:32;H:32;
+ID:52;X:-19776;Y:-20032;W:32;H:32;
+ID:52;X:-19808;Y:-20032;W:32;H:32;
+ID:52;X:-19840;Y:-20032;W:32;H:32;
+ID:52;X:-19872;Y:-20032;W:32;H:32;
+ID:52;X:-19904;Y:-20032;W:32;H:32;
+ID:52;X:-19936;Y:-20032;W:32;H:32;
+ID:52;X:-19968;Y:-20032;W:32;H:32;
+ID:52;X:-20000;Y:-20032;W:32;H:32;
 BLOCK_END
 BGO
 ID:224;X:-199808;Y:-200224;
@@ -2165,7 +2191,9 @@ ID:201;X:-138048;Y:-140192;
 ID:201;X:-138000;Y:-140192;
 ID:201;X:-138304;Y:-140192;
 ID:201;X:-137664;Y:-140192;
-ID:92;X:-37024;Y:-40192;
+ID:92;X:-196928;Y:-200096;
+ID:35;X:-19328;Y:-20064;
+ID:92;X:-20000;Y:-20096;
 BGO_END
 NPC
 ID:339;X:-199424;Y:-200128;D:1;XTRA:"{\n    \"activeByDefault\"\: 1\n}\n";
@@ -2275,8 +2303,6 @@ ID:26;X:-99520;Y:-100128;D:-1;
 ID:26;X:-99584;Y:-100128;D:-1;
 ID:26;X:-99552;Y:-100128;D:-1;
 ID:26;X:-99616;Y:-100128;D:-1;
-ID:41;X:-99552;Y:-100224;D:-1;FD:1;NM:1;LR:"Warp Box 6";
-ID:465;X:-99552;Y:-100224;D:-1;ED:"Hide Warp Box 6";
 ID:41;X:-99552;Y:-100928;D:-1;FD:1;NM:1;
 ID:41;X:-79968;Y:-80576;D:-1;FD:1;NM:1;
 ID:41;X:-79872;Y:-80192;D:-1;FD:1;NM:1;LR:"Warp Box 7";
@@ -2529,6 +2555,9 @@ ID:261;X:-58336;Y:-60160;D:-1;
 ID:310;X:-178048;Y:-180896;D:-1;S1:1;NM:1;
 ID:310;X:-137527;Y:-140279;D:-1;S1:2;NM:1;
 ID:310;X:-58295;Y:-60279;D:-1;S1:3;
+ID:31;X:-198240;Y:-200224;D:-1;
+ID:465;X:-99552;Y:-100224;D:-1;LR:"Warp Box 6";ED:"Hide Warp Box 6";
+ID:41;X:-99552;Y:-100224;D:-1;FD:1;NM:1;LR:"Warp Box 6";
 NPC_END
 PHYSICS
 ET:0;X:-79968;Y:-80736;W:896;H:608;
@@ -2537,13 +2566,13 @@ DOORS
 IX:-196832;IY:-200768;OX:-179936;OY:-180352;DT:0;ID:1;OD:1;
 IX:-177920;IY:-180928;OX:-159648;OY:-160320;DT:0;ID:1;OD:1;
 IX:-159264;IY:-160224;OX:-139904;OY:-140288;DT:0;ID:1;OD:1;LR:"Warp Box 3";
-IX:-137440;IY:-140320;OX:-119584;OY:-120224;DT:0;ID:1;OD:1;
-IX:-119584;IY:-120960;OX:-99552;OY:-100224;DT:0;ID:1;OD:1;
+IX:-137440;IY:-140320;OX:-119584;OY:-120224;DT:0;ID:1;OD:1;LR:"Warp Box 5";
+IX:-119584;IY:-120960;OX:-99552;OY:-100224;DT:0;ID:1;OD:1;LR:"Warp Box 6";
 IX:-99552;IY:-100928;OX:-79872;OY:-80192;DT:0;ID:1;OD:1;
 IX:-79968;IY:-80576;OX:-60000;OY:-60288;DT:0;ID:1;OD:1;
 IX:-57696;IY:-60384;OX:-39968;OY:-40192;DT:0;ID:1;OD:1;LR:"Warp Box 9";
-IX:-37024;IY:-40160;DT:2;ID:1;OD:1;LF:"MARO's Revenge.lvlx";LI:0;EX:1;SL:1;
 OX:-60000;OY:-60288;DT:2;ID:1;OD:1;ET:1;
+IX:-196928;IY:-200064;OX:-20000;OY:-20064;DT:2;ID:1;OD:1;SL:2;AI:1;
 DOORS_END
 LAYERS
 LR:"Default";

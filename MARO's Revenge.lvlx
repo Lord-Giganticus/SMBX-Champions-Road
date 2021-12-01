@@ -156,7 +156,6 @@ ID:203;X:-199280;Y:-200720;LR:"Move MARO";
 ID:203;X:-199248;Y:-200720;LR:"Move MARO";
 ID:203;X:-199216;Y:-200720;LR:"Move MARO";
 ID:104;X:-179872;Y:-180992;
-ID:92;X:-159968;Y:-160352;LR:"Secret Door";
 BGO_END
 NPC
 ID:465;X:-200000;Y:-200128;D:-1;ED:"Level - Start";
@@ -166,17 +165,15 @@ ID:209;X:-159680;Y:-160554;D:-1;LR:"Maro Fight";ED:"MARO dies";
 ID:91;X:-159824;Y:-160288;D:-1;CN:409;GE:1;GT:1;GD:1;GM:100;
 ID:170;X:-179872;Y:-180928;D:-1;
 ID:170;X:-179840;Y:-180928;D:-1;
-ID:97;X:-159616;Y:-160448;D:-1;LR:"Star";ED:"Game End";
+ID:97;X:-159616;Y:-160448;D:-1;LR:"Star";
 ID:101;X:-159358;Y:-160350;D:-1;MG:"NO! You can't just beat me!\nI will have my revenge!";FD:1;LR:"MARO 2";ET:"Show Cristal Ball";
 ID:208;X:-159680;Y:-160576;D:-1;LR:"Sheild";ED:"Sheild Break";
 ID:210;X:-159758;Y:-160144;D:-1;GE:1;GT:1;GD:1;GM:10;LR:"Rinka";
 ID:210;X:-159342;Y:-160144;D:-1;GE:1;GT:1;GD:1;GM:10;LR:"Rinka";
-ID:151;X:-159912;Y:-160336;D:-1;MG:"Warning\: This level is extremely difficult. Getting hit will KILL YOU.\nIt also has a extremely tight timer.\n\nGood luck.";FD:1;LR:"Secret Door";
 NPC_END
 DOORS
 IX:-199280;IY:-200608;OX:-179632;OY:-180064;DT:0;ID:1;OD:1;
 IX:-179856;IY:-180928;OX:-159648;OY:-160320;DT:2;ID:1;OD:1;
-IX:-159968;IY:-160320;DT:2;ID:1;OD:1;LF:"Perfect Run Champion's Road.lvlx";LI:0;EX:1;SL:2;LR:"Secret Door";
 DOORS_END
 LAYERS
 LR:"Default";
