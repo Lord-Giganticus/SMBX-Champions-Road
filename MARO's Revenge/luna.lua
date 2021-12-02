@@ -5,6 +5,7 @@
 
 local BetterDamage = API.load("BetterDamage")
 local timer = nil
+local fight
 
 function onStart()
     player.powerup = PLAYER_BIG
