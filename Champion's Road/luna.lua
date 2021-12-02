@@ -7,4 +7,5 @@ local BetterDamage = API.load("BetterDamage")
 
 function onStart()
     player.powerup = PLAYER_BIG
+    BetterDamage:Initalize()
 end

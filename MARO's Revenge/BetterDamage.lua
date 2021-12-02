@@ -3,7 +3,7 @@ local BetterDamage = {}
 local laststate = nil
 local lastpower
 
-function BetterDamage.onStart()
+function BetterDamage.Initalize()
     lastpower = player.powerup
 end
 
@@ -32,7 +32,6 @@ end
 
 function BetterDamage.onInitAPI()
     registerEvent(BetterDamage, "onTick", "onTick")
-    registerEvent(BetterDamage, "onStart", "onStart")
 end
 
 return BetterDamage

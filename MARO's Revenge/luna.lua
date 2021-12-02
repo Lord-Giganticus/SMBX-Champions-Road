@@ -8,6 +8,7 @@ local timer = nil
 
 function onStart()
     player.powerup = PLAYER_BIG
+    BetterDamage.Initalize()
     fight = Layer.get("Maro Fight")
 end
 
